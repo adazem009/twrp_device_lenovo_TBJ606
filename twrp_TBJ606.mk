@@ -22,11 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := juice
-PRODUCT_NAME := twrp_juice
-PRODUCT_BRAND := xiaomi
-PRODUCT_MODEL := juice
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_DEVICE := TBJ606
+PRODUCT_NAME := twrp_TBJ606
+PRODUCT_BRAND := Lenovo
+PRODUCT_MODEL := Tab P11
+PRODUCT_MANUFACTURER := Lenovo
 
 # Define  Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true

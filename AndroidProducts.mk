@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_juice.mk
+    $(LOCAL_DIR)/twrp_TBJ606.mk
 
-COMMON_LUNCH_CHOICES := twrp_juice-eng
+COMMON_LUNCH_CHOICES := twrp_TBJ606-eng
