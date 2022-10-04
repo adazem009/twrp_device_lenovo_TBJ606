@@ -174,4 +174,25 @@ AB_OTA_PARTITIONS := \
     system \
     vbmeta \
     vendor \
-    product
+    product \
+    vbmeta_system \
+    recovery \
+    abl \
+    modem \
+    keymaster \
+    mdtp \
+    qupfw \
+    tz \
+    hyp \
+    imagefv \
+    rpm \
+    xbl_config \
+    devcfg \
+    dsp \
+    cmnlib64 \
+    mdtpsecapp \
+    bluetooth \
+    xbl \
+    cmnlib \
+    featenabler \
+    uefisecapp
