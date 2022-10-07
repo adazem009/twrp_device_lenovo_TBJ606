@@ -44,3 +44,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     qcom_decrypt \
     qcom_decrypt_fbe
+
+TARGET_RECOVERY_DEVICE_MODULES += \
+    libandroidicu
