@@ -47,3 +47,6 @@ PRODUCT_PACKAGES += \
 
 TARGET_RECOVERY_DEVICE_MODULES += \
     libandroidicu
+
+PRODUCT_COPY_FILES += \
+    $(OUT_DIR)/soong/.intermediates/external/icu/libandroidicu/libandroidicu/android_arm64_armv8-a_cortex-a73_shared_1/libandroidicu.so:$(TARGET_COPY_OUT_RECOVERY)/root/system/lib64/libandroidicu.so
